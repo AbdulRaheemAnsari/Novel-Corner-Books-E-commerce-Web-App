@@ -1,0 +1,616 @@
+
+html body{
+    width: 100%;
+
+}
+.categorynames{
+    width: 100%;
+    /* background-color: #D20E0E; */
+    padding: 0 30px;
+    font-size: 30px;
+    margin-top: 80px;
+    font-family: "Salsa", cursive;
+}
+.categorynames h1{
+    font-family: "Salsa", cursive;
+    color: rgb(34, 34, 34); 
+}
+
+.containers{
+    width: 100%;
+    min-height: 20vh;
+    /* background-color: #D20E0E; */
+    padding: 0rem 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 1.5rem;
+    overflow: hidden;
+}
+
+
+.booksCarts{
+    width: 19.375rem;
+    height: 13.75rem;
+    border-radius: 1.25rem;
+    color: white;
+    display: flex;
+    overflow: hidden;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cart .imgage{
+    background-color: white;
+    padding: 0.625rem 0.125rem;
+    border-radius: 0.625rem;
+    width: 8.75rem;
+    margin-left: 5px;
+
+}
+
+.cart .content{
+    margin-left: 1.125rem;
+    margin-top: 3.75rem;
+}
+.cart .content p{
+    font-family: "Salsa", cursive;
+    font-size: 1.375rem;
+    cursor: pointer;
+}
+.cart .content p:hover{
+    color: #D20E0E;
+}
+
+.cart .content button{
+    border: 1px solid #fff;
+    border-radius: 1.875rem;
+    padding: 0.188rem 1rem;
+    margin-top: 0.313rem;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 33.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1125px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 30.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1030px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 28.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 960px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 26.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 900px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 24.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 830px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 22.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 770px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 20.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 700px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+    }
+
+    .booksCarts{
+        width: 18.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    
+}
+
+@media only screen and (max-width: 640px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 36.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+    }
+
+    .categorynames h1{
+        font-family: "Salsa", cursive;
+        color: rgb(34, 34, 34); 
+        font-size: 26px;
+    }
+    
+}
+
+@media only screen and (max-width: 635px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 34.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .categorynames h1{
+        font-family: "Salsa", cursive;
+        color: rgb(34, 34, 34); 
+        font-size: 25px;
+    }
+    
+}
+
+@media only screen and (max-width: 590px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 32.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    
+}
+
+@media only screen and (max-width: 560px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 30.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .categorynames h1{
+        font-family: "Salsa", cursive;
+        color: rgb(34, 34, 34); 
+        font-size: 24px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 540px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 28.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 26.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .categorynames h1{
+        font-family: "Salsa", cursive;
+        color: rgb(34, 34, 34); 
+        font-size: 22px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 470px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 24.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    
+}
+
+@media only screen and (max-width: 440px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 22.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    
+}
+
+@media only screen and (max-width: 405px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 20.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    
+}
+
+@media only screen and (max-width: 370px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 18.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    
+}
+
+@media only screen and (max-width: 340px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 16.75rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .cart .content p{
+        font-family: "Salsa", cursive;
+        font-size: 0.875rem;
+        cursor: pointer;
+    }
+
+    .cart .content button{
+        border: 1px solid #fff;
+        border-radius: 1.875rem;
+        padding: 0.188rem 0.8rem;
+        margin-top: 0.313rem;
+        font-size: 0.75rem;
+    }
+
+    .categorynames h1{
+        font-family: "Salsa", cursive;
+        color: rgb(34, 34, 34); 
+        font-size: 18px;
+    }
+    
+}
+
+@media only screen and (max-width: 315px){
+    .containers{
+        width: 100%;
+        min-height: 20vh;
+        /* background-color: #D20E0E; */
+        padding: 0rem 1.25rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-top: 1.5rem;
+        gap: 1.875rem;
+        overflow: hidden;
+    }
+
+    .booksCarts{
+        width: 15.6rem;
+        height: 13.75rem;
+        border-radius: 1.25rem;
+        color: white;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .cart .content p{
+        font-family: "Salsa", cursive;
+        font-size: 0.775rem;
+        cursor: pointer;
+    }
+
+    .cart .content button{
+        border: 1px solid #fff;
+        border-radius: 1.875rem;
+        padding: 0.188rem 0.5rem;
+        margin-top: 0.313rem;
+        font-size: 0.7rem;
+    }
+
+    .categorynames h1{
+        font-family: "Salsa", cursive;
+        color: rgb(34, 34, 34); 
+        font-size: 16px;
+    }
+    
+}

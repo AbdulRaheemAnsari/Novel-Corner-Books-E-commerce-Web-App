@@ -1,0 +1,88 @@
+
+.breadcrums{
+    color: #777777;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 670px){
+    .breadcrums{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .breadcrums{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .breadcrums{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 505px){
+    .breadcrums{
+        height: 120px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0px;
+        font-size: 14px;
+    }
+    .breadcrums .rotte{
+        rotate: 90deg;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .breadcrums{
+        /* background-color: antiquewhite; */
+        justify-content: center;
+        font-size: 12px;
+    }
+    .breadcrums .rotte{
+        rotate: 90deg;
+    }
+}
+
+
+
+@media only screen and (max-width: 330px){
+    .breadcrums{
+        height: 120px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 290px){
+    .breadcrums{
+        height: 120px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 265px){
+    .breadcrums{
+        height: 120px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        font-size: 8px;
+    }
+}

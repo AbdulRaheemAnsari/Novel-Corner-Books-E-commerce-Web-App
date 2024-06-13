@@ -1,0 +1,304 @@
+.profile{
+    width: 100%;
+    height: 60vh;
+    /* background-color: antiquewhite; */
+}
+
+.profileinner{
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(148, 101, 40); */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.profileimage{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #D22129; */
+}
+.profileimage .profileimg{
+    filter: blur(0px);
+    background: none;
+    width: 100px;
+    border-radius: 0px; 
+}
+
+.profileinner button{
+    background-color: #D22129;
+    padding: 5px 20px;
+    color: white;
+    font-weight: 500;
+}
+.profileinner button:hover{
+    background-color: #b11018;
+}
+
+.profilename{
+    width: 70%;
+    padding: 20px 20px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.profilename h2{
+    font-weight: 600;
+}
+.profilename p{
+    font-weight: 400;
+    color: rgb(88, 88, 88);
+}
+
+@media only screen and (max-width: 1200px){
+
+    .profile{
+        width: 100%;
+        height: 34vh;
+        /* background-color: antiquewhite; */
+    }
+    
+    .profileinner button{
+        background-color: #D22129;
+        padding: 5px 20px;
+        color: white;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 1066px){
+
+    .profile{
+        width: 100%;
+        height: 34vh;
+        /* background-color: antiquewhite; */
+    }
+
+    .profileinner button{
+        background-color: #D22129;
+        padding: 5px 20px;
+        color: white;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    .profile{
+        width: 100%;
+        height: 34vh;
+        /* background-color: antiquewhite; */
+    }
+
+
+    .profileinner button{
+        background-color: #D22129;
+        padding: 5px 20px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .profileinner{
+        width: 100%;
+        height: 24%;
+        /* background-color: rgb(148, 101, 40); */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .profilename{
+        width: 70%;
+        padding: 20px 0px;
+        gap: 5px;
+    }
+
+    .profileimage .profileimg{
+        filter: blur(0px);
+        background: none;
+        width: 100%;
+        border-radius: 0px; 
+    }
+}
+@media only screen and (max-width: 500px){
+
+    .profile{
+        width: 100%;
+        height: 34vh;
+        /* background-color: antiquewhite; */
+    }
+
+    .profileinner button{
+        background-color: #D22129;
+        padding: 4px 18px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .profileinner{
+        width: 100%;
+        height: 24%;
+        /* background-color: rgb(148, 101, 40); */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .profilename{
+        width: 70%;
+        padding: 20px 0px;
+        gap: 5px;
+    }
+
+    .profileimage .profileimg{
+        filter: blur(0px);
+        background: none;
+        width: 100%;
+        border-radius: 0px; 
+    }
+
+    .profilename h2{
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .profilename p{
+        font-weight: 400;
+        color: rgb(88, 88, 88);
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+
+    .profile{
+        width: 100%;
+        height: 30vh;
+        /* background-color: antiquewhite; */
+    }
+
+    .profileinner button{
+        background-color: #D22129;
+        padding: 4px 18px;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .profileinner{
+        width: 100%;
+        height: 24%;
+        /* background-color: rgb(148, 101, 40); */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .profilename{
+        width: 70%;
+        padding: 20px 0px;
+        gap: 5px;
+    }
+
+    .profileimage .profileimg{
+        filter: blur(0px);
+        background: none;
+        width: 100%;
+        border-radius: 0px; 
+    }
+
+    .profilename h2{
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .profilename p{
+        font-weight: 400;
+        color: rgb(88, 88, 88);
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    .profile{
+        width: 100%;
+        height: 30vh;
+        /* background-color: antiquewhite; */
+    }
+
+    .profileinner button{
+        background-color: #D22129;
+        padding: 4px 14px;
+        color: white;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .profileinner{
+        width: 100%;
+        height: 24%;
+        /* background-color: rgb(148, 101, 40); */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .profilename{
+        width: 70%;
+        padding: 20px 0px;
+        gap: 5px;
+    }
+
+    .profileimage .profileimg{
+        filter: blur(0px);
+        background: none;
+        width: 100%;
+        border-radius: 0px; 
+    }
+
+    .profilename h2{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .profilename p{
+        font-weight: 400;
+        color: rgb(88, 88, 88);
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 250px){
+
+    .profile{
+        width: 100%;
+        height: 30vh;
+        /* background-color: antiquewhite; */
+    }
+
+    .profileinner button{
+        background-color: #D22129;
+        padding: 4px 14px;
+        color: white;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .profilename h2{
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .profilename p{
+        font-weight: 400;
+        color: rgb(88, 88, 88);
+        font-size: 9px;
+    }
+}
+
+
