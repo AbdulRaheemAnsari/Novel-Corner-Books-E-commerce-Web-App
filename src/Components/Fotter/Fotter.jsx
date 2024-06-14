@@ -1,10 +1,10 @@
 import './fotter.css'
 import { NavLink } from 'react-router-dom'
-import { FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaYoutube } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
+// import { AiFillInstagram } from "react-icons/ai";
+// import { FaYoutube } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
 
 
 const Fotter = () => {
@@ -57,13 +57,13 @@ const Fotter = () => {
                 <div className="links">
                     <li>For complaints and feedback:</li>
                     <li>novelcorner@gmail.com</li>
-                    <div className="sicailicons">
+                    {/* <div className="sicailicons">
                         <FaFacebook className=' bg-white rounded-full w-9 h-9 p-2 cursor-pointer' />
                         <FaTwitter className=' bg-white rounded-full w-9 h-9 p-2 cursor-pointer' />
                         <FaYoutube className=' bg-white rounded-full w-9 h-9 p-2 cursor-pointer' />
                         <AiFillInstagram className=' bg-white rounded-full w-9 h-9 p-2 cursor-pointer' />
                         <FaLinkedin className=' bg-white rounded-full w-9 h-9 p-2 cursor-pointer' />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

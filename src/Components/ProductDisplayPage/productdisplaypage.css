@@ -1012,8 +1012,8 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 2%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
         /* background-color: yellow; */
         /* border: 1px solid #0a2947; */
@@ -1057,11 +1057,13 @@
     }
 
     .description {
-        width: 100%;
-        min-height: 300px;
-        margin-top: 50px;
-        border-bottom: 1px solid #797979;
-        padding-bottom: 18px;
+        transition: height 0.3s ease;
+        overflow: hidden;
+    }
+    
+    .description.cropped {
+        height: 6%;
+        overflow: hidden;
     }
     
 }
@@ -1102,9 +1104,10 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 0%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
+        /* background-color: yellow; */
     }
 
 
@@ -1190,9 +1193,10 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 0%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
+        /* background-color: yellow; */
     }
 
 
@@ -1243,6 +1247,11 @@
     .des p{
         font-size: 16px;
     }
+
+    .description.cropped {
+        height: 4%;
+        overflow: hidden;
+    }
     
 }
 
@@ -1283,9 +1292,10 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 0%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
+        /* background-color: yellow; */
     }
 
 
@@ -1374,9 +1384,10 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 0%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
+        /* background-color: yellow; */
     }
 
 
@@ -1469,11 +1480,10 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 0%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
         /* background-color: yellow; */
-        /* border: 1px solid #0a2947; */
     }
 
 
@@ -1530,7 +1540,7 @@
 @media only screen and (max-width: 290px) {
     .productdisplaypage-container {
         width: 100%;
-        min-height: 110vh;
+        min-height: 120vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1563,9 +1573,10 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 0%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
+        /* background-color: yellow; */
     }
 
 
@@ -1607,7 +1618,7 @@
 
     .description {
         width: 100%;
-        height: 380px;
+        height: 320px;
         margin-top: 50px;
         border-bottom: 1px solid #797979;
         padding-bottom: 18px;
@@ -1618,7 +1629,7 @@
 @media only screen and (max-width: 260px) {
     .productdisplaypage-container {
         width: 100%;
-        min-height: 110vh;
+        min-height: 120vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1651,9 +1662,10 @@
 
     .right {
         width: 100%;
-        height: 50%;
-        margin-top: 0%;
+        height: 100%;
+        margin-top: 10%;
         padding-left: 0px;
+        /* background-color: yellow; */
     }
 
     .name p {
@@ -1676,6 +1688,13 @@
         font-size: 18px;
     }
 
+    .description {
+        width: 100%;
+        height: 380px;
+        margin-top: 50px;
+        border-bottom: 1px solid #797979;
+        padding-bottom: 18px;
+    }
     
     
 }

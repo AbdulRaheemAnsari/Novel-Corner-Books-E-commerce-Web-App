@@ -29,13 +29,6 @@ const RecentAddedCart = (props) => {
                   <div className="recentadded-textcontents">
                     <Link to={`/ProductDisplay/${item.id}`}><h1>{item.name}</h1></Link>
                     <h3>By: {item.byowner}</h3>
-                    {/* <div className="recentadded-reviews">
-                      <TiStarFullOutline />
-                      <TiStarFullOutline />
-                      <TiStarFullOutline />
-                      <TiStarFullOutline />
-                      <TiStarFullOutline />
-                    </div> */}
                     <div className="recentadded-pricess">
                       <h4>Rs: {item.price}</h4>
                       <h5 className="oldprice text-[#D20E0E]">{item.oldprice}</h5>

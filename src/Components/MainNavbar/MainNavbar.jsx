@@ -155,7 +155,7 @@ const MainNavbar = () => {
         <AddToCartSideBar />
 
         <div className="bottomcart">
-          <Link to="/CartItemPage">
+          <Link onClick={handlesidebarremove} to="/CartItemPage">
             <button>Checkout Total Amount {getTotalAmount()}</button>
           </Link>
         </div>
