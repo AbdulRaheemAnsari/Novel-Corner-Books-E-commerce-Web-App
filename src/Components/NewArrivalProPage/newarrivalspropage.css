@@ -1275,7 +1275,7 @@
     
     .newarrivaslpage-cart{
         width: 160px;
-        height: 320px;
+        height: 280px;
         background-color: #f3f3f3;
         display: flex;
         flex-direction: column;
@@ -1288,14 +1288,14 @@
     .newarrivaslpage-cart button{
         background-color: #D20E0E;
         width: 160px;
-        height: 40px;
+        height: 30px;
         font-size: 10px;
         color: white;
         font-weight: 500;
     }
 
     .newarrivaslpage-image img{
-        width: 100px;
+        width: 85px;
         height: 100%;
         border-radius: 0px;
     }
@@ -1400,10 +1400,6 @@
         color: #ec1616;
     }
 
-    .newarrivaslpage-reviews{
-        gap: 3px;
-        font-size: 14px;
-    }
     
     .newarrivaslpage-pricess{
         display: flex;
